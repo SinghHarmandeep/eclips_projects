@@ -1,0 +1,15 @@
+package lab3;
+
+public class problem {
+	
+	public static void main(String[] arg) {
+		System.out.println("Hello World");
+		int[] aRand = new int[20];
+		populateArray();
+	}
+	
+	public static void populateArray(/*int[] array*/) {
+		System.out.println("hwllo piece of shit");
+	}
+
+}

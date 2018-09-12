@@ -1,0 +1,8 @@
+package lab3;
+
+public class problem2 {
+	public static void main(String[] arg) {
+		String[] words = {"dawn","dusk","morning","evening","park","meet","at","flowers","sun","noon"};
+		System.in.read();
+}
+}

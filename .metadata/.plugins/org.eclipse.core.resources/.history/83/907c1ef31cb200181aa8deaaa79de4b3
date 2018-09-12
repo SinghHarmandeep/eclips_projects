@@ -1,0 +1,12 @@
+package lab3;
+
+public class problem {
+	
+	public static void main(String[] arg) {
+		lab2 var = new lab2();
+		System.out.println(var.name);
+		//int[] aRand = new int[20];
+		
+	}
+
+}
