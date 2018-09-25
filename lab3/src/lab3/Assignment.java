@@ -5,7 +5,7 @@ public class Assignment {
 	
 	public static void main(String[]args) {
 		Scanner scan = new Scanner(System.in);
-		
+
 		//Average of three numbers
 		double num1,num2,num3, average;
 		System.out.println("Enter three decimal numbers: ");
@@ -15,12 +15,12 @@ public class Assignment {
 		average = (num1+num2+num3)/3;
 		System.out.printf("The average of the three numbers is: " + "%.3f",average);
 		//
-		
+		Scanner scann = new Scanner(System.in);
 		//Check if palindrome exists
 		String input;
 		String palindrome = "";
-		System.out.println("\n\nNow enter a string to see if it's a palindrome (we will neglact the spaces): ");
-		input = scan.nextLine(); /// Why is it not asking for an input?
+		System.out.println("\nNow enter a string to see if it's a palindrome (we will neglact the spaces): ");
+		input = scann.nextLine(); /// Why is it not asking for an input?
 		input = input.replaceAll("\\s", "");
 		for (int i = input.length()-1; i >=0;i--) {
 			palindrome += input.charAt(i);
@@ -28,12 +28,13 @@ public class Assignment {
 		System.out.println(input.equals(palindrome));
 		//
 		
-		/*/Decrypting a message
+		//Decrypting a message
 		String interceptedMessage = ":mmZ\\dxZmx]Zpgy";
 		System.out.println(decript(interceptedMessage));
-		/*/
+		//
 		
 		scan.close();
+		scann.close();
 	}
 	
 	public static String decript(String x) {
@@ -54,6 +55,8 @@ public class Assignment {
 			if(Decrepted.contains("at")) {
 				System.out.println("\n"+ i + "\n");
 				realAnswer = Decrepted;
+
+				
 			}
 		}
 		
