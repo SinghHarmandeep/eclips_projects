@@ -3,14 +3,23 @@ public class Circle {
 	double Radius;
 	final double PI = 3.14159;
 	public Circle(double x) {
-		Radius = x;
+		if(x < 0) {
+			System.out.println("Invalid input");
+		}
+		else {
+			Radius = x;
+		}
 	}
 	public Circle() {
 		Radius = 0.0;
 	}
 	public void setRadius(double r) {
-		Radius = r;
-	}
+		if(r < 0) {
+			System.out.println("Invalid input");
+		}
+		else {
+			Radius = r;
+		}	}
 	public double getRadius() {
 		return Radius;
 	}

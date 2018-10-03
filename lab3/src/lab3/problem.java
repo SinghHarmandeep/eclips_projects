@@ -31,6 +31,7 @@ public class problem {
 	public static void printArray(int[] array) {
 		System.out.println("The values in the array are as follow: ");
 		for(int i = 0; i<20; i++) {
+			
 			System.out.println(array[i]);	
 		}
 		System.out.println("The average of this array is: "+ calculateAverage(array));

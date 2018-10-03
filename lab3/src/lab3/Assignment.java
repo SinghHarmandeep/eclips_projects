@@ -13,14 +13,16 @@ public class Assignment {
 		num2 = scan.nextDouble();
 		num3 = scan.nextDouble();
 		average = (num1+num2+num3)/3;
-		System.out.printf("The average of the three numbers is: " + "%.3f",average);
+		System.out.printf("The "
+				+ "average of the three numbers is: " + "%.3f",average);
 		//
-		Scanner scann = new Scanner(System.in);
+		
+		//Scanner scann = new Scanner(System.in);
 		//Check if palindrome exists
 		String input;
 		String palindrome = "";
 		System.out.println("\nNow enter a string to see if it's a palindrome (we will neglact the spaces): ");
-		input = scann.nextLine(); /// Why is it not asking for an input?
+		input = scan.nextLine(); /// Why is it not asking for an input?
 		input = input.replaceAll("\\s", "");
 		for (int i = input.length()-1; i >=0;i--) {
 			palindrome += input.charAt(i);
@@ -34,7 +36,7 @@ public class Assignment {
 		//
 		
 		scan.close();
-		scann.close();
+		//scann.close();
 	}
 	
 	public static String decript(String x) {
