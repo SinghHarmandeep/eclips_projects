@@ -111,3 +111,4 @@ public class Tic_tac_toe {
 				(table[0][2]==curplayer)&&(table[1][1]==curplayer)&&(table[2][0]==curplayer));//check other diagonal
 		}
 }
+//Just checking
