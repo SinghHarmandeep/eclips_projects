@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.Name.Table"/>
+    <fullyQualifiedTypeName name="CargoShip"/>
+    <fullyQualifiedTypeName name="package2.traviling"/>
 </qualifiedTypeNameHistroy>
