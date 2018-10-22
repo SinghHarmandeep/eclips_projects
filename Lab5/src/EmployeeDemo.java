@@ -8,7 +8,8 @@ public class EmployeeDemo {
 		System.out.printf("%1$-20s"+"%2$-20s"+"%3$-20s"+"%4$-20s"+"%5$-20s\n","Name","ID Number","Department","Position","Salary $");
 		System.out.println(worker1.toString());
 		System.out.println(worker2.toString());
-		System.out.println(worker3.toString());
+		System.out.println(worker3.toString()); 
+		
+		System.out.println(worker1.equals(worker1));
 	}
 }
-//this is a test

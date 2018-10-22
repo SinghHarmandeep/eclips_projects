@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.Name.Table"/>
     <fullyQualifiedTypeName name="CargoShip"/>
     <fullyQualifiedTypeName name="package2.traviling"/>
+    <fullyQualifiedTypeName name="MyInteger"/>
 </qualifiedTypeNameHistroy>

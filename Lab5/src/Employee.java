@@ -1,4 +1,3 @@
-
 	/**
 	 * 
 	 * @param x is the first parameter (String)
@@ -18,13 +17,33 @@ public class Employee {
 	
 	//The following is the default constructor (Just to save time i'm initializing the values in the constructor)
 	
-	Employee(String x, int idn, String d, String p, double passa){
+	public Employee(String x, int idn, String d, String p, double passa){
 		this.setName(x);
 		this.setIdNumber(idn);
 		this.setDepartment(d);
 		this.setPosition(p);
 		this.setSalary(passa);
-	};
+	}
+	
+	public Employee(String nam, int id){
+	name = nam;
+	idNumber = id;
+	department = position = "";
+	salary = 0;
+	}
+	
+	public Employee(String nam, int id, double passa) {
+		name = nam;
+		idNumber = id;
+		salary = passa;
+		department = position = "";
+	}
+	
+	public Employee() {
+		name = department = position = null;
+		idNumber = 0;
+		salary = 0;
+	}
 	
 	//The following methods are setting methods
 	public void setName(String nam) {
@@ -84,22 +103,9 @@ public class Employee {
 	public double getSalary() {
 		return salary;
 	}
-
-	//The following methods are changing methods. (I know it's recursive but it's for the sake of organizing)
-	public void changeName(String nam) {
-		setName(nam);
-	}
-	public void changeIdNumber(int id) {
-		setIdNumber(id);
-	}
-	public void changeDepartment(String dept) {
-		setDepartment(dept);
-	}
-	public void changePosition(String post) {
-		setPosition(post);
-	}
-	public void changeSalary(double money) {
-		setSalary(money);
+	
+	public boolean equals(Employee obj2) {
+		return (idNumber == obj2.idNumber);
 	}
 
 	public String toString() {
