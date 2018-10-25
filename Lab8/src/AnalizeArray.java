@@ -17,7 +17,7 @@ public class AnalizeArray {
 	}
 	
 	
-	public class MinMaxAv{
+	public class MinMaxAv{ //inner classes
 		public MinMaxAv(){
 			
 		}

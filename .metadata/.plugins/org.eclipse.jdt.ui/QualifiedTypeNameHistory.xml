@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.Name.Table"/>
     <fullyQualifiedTypeName name="CargoShip"/>
     <fullyQualifiedTypeName name="package2.traviling"/>
     <fullyQualifiedTypeName name="MyInteger"/>
+    <fullyQualifiedTypeName name="AnalizeArray"/>
+    <fullyQualifiedTypeName name="AnalizeArray.MinMaxAv"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="AndroidPracticeTest"/>
 </qualifiedTypeNameHistroy>

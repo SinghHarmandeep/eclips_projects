@@ -6,5 +6,12 @@ public class ClintDemo {
 		AnalizeArray obj1 = new AnalizeArray(array);
 		obj1.analyze();
 		System.out.println(obj1.minmaxAv.average());
+	
+		
+		//The following is Test Practice
+		AndroidPracticeTest obj2 = new AndroidPracticeTest();
+		AndroidPracticeTest obj3 = new AndroidPracticeTest();
+		System.out.println(obj2.getname());
+		System.out.println(obj3.getname());
 	}
 }
