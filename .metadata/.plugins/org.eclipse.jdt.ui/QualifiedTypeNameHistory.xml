@@ -7,7 +7,8 @@
     <fullyQualifiedTypeName name="MyInteger"/>
     <fullyQualifiedTypeName name="AnalizeArray"/>
     <fullyQualifiedTypeName name="AnalizeArray.MinMaxAv"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="AndroidPracticeTest"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

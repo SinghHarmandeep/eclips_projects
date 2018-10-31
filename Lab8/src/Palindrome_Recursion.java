@@ -7,6 +7,7 @@ public class Palindrome_Recursion {
 		System.out.println("Enter a string to see if it's a palindrome:");
 		x = scan.nextLine();
 		x = x.replaceAll(" ", "");
+		x = x.toLowerCase();
 		boolean p = isPalindrome(x);
 		System.out.println(p);
 		scan.close();
@@ -23,8 +24,8 @@ public class Palindrome_Recursion {
 				isPalindrome(input.substring(1, input.length() - 1));
 				return true;
 		}
-
-		return false;
-		
+		else {
+			return false;
+		}
 	}
 }

@@ -26,7 +26,7 @@ public class CheckValidPassword {
 		
 		for(int i = 0; i < input.length(); i++) { //check if the input contains anything else than letters or Digit
 			if(!Character.isLetterOrDigit(input.charAt(i))) {
-				System.out.println("password is not only letter or digits");
+				System.out.println("password can only contain letter or digits");
 				return false;
 			}
 		}

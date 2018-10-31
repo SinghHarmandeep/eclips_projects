@@ -13,8 +13,7 @@ public class Assignment {
 		num2 = scan.nextDouble();
 		num3 = scan.nextDouble();
 		average = (num1+num2+num3)/3;
-		System.out.printf("The "
-				+ "average of the three numbers is: " + "%.3f",average);
+		System.out.printf("The average of the three numbers is: " + "%.3f",average);
 		//
 		
 		//Scanner scann = new Scanner(System.in);

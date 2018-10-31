@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
 		<item value="448" key="DIALOG_X_ORIGIN"/>
-		<item value="2" key="DIALOG_Y_ORIGIN"/>
+		<item value="23" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="563" key="dialogHeight"/>
@@ -21,5 +21,12 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="InstallationDialogSettings">
+		<item value="702" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="651" key="DIALOG_HEIGHT"/>
+		<item value="-84" key="DIALOG_X_ORIGIN"/>
+		<item value="-246" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
