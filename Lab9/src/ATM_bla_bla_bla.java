@@ -13,7 +13,7 @@ public class ATM_bla_bla_bla {
 		int input_id;
 		int choice;
 		
-		while(5>3) {	
+		while(5>3)//since 5 is always greater {	
 			System.out.println("Enter an id between 0 to 9 for more information about that id: ");
 			input_id = scan.nextInt();
 		while(input_id<0 || input_id>9) {
