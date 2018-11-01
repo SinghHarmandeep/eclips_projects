@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.Name.Table"/>
     <fullyQualifiedTypeName name="CargoShip"/>
     <fullyQualifiedTypeName name="package2.traviling"/>
@@ -8,7 +7,11 @@
     <fullyQualifiedTypeName name="AnalizeArray"/>
     <fullyQualifiedTypeName name="AnalizeArray.MinMaxAv"/>
     <fullyQualifiedTypeName name="AndroidPracticeTest"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.annotation.processing.RoundEnvironment"/>
 </qualifiedTypeNameHistroy>
