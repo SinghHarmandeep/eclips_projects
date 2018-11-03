@@ -14,4 +14,9 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="javax.annotation.processing.RoundEnvironment"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Type.ForAll"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="jdk.nashorn.api.tree.ForInLoopTree"/>
+    <fullyQualifiedTypeName name="Patient"/>
 </qualifiedTypeNameHistroy>
