@@ -15,8 +15,10 @@ public class Patient extends Person {
 	public void setId(String id) {
 		this.id = id;
 	}
-	
+		
 	public String toString() {
 		return super.toString() + "'s id is: " + id ;
 	}
+	
+	
 }
