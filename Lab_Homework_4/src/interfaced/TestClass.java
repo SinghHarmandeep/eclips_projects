@@ -31,5 +31,4 @@ public class TestClass {
 			System.out.println(circle.compareTo(circles.get(2)));
 		}
 	}
-
 }

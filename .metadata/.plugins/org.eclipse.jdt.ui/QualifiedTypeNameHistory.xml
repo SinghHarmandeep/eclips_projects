@@ -25,4 +25,6 @@
     <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="StringStack"/>
+    <fullyQualifiedTypeName name="StringDynStack"/>
 </qualifiedTypeNameHistroy>
