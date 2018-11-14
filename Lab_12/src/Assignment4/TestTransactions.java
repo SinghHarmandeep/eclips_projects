@@ -1,11 +1,13 @@
 package Assignment4;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TestTransactions {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		
 		//System.out.println("Enter name, id, balance, interest rate");
 		//NAccount newacount = new NAccount(scan.nextLine(),scan.nextInt(),scan.nextDouble(),scan.nextDouble());
 		NAccount newacount = new NAccount("Harmandeep", 3243, 1000, 1.5);
@@ -21,5 +23,5 @@ public class TestTransactions {
 		scan.close();
 		
 	}
-
+	
 }

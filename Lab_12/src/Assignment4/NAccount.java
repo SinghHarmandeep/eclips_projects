@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class NAccount extends Account {
 
 	public String name; //name
-	public ArrayList<Transaction> transactions = new ArrayList<>(); //transactions
+	public ArrayList<Transaction> transactions = new ArrayList<>(); // all transactions for this account
 	Transaction deal;
 	
 	public NAccount(String name,int _id, double _balance) {//for accounts supper class
@@ -26,7 +26,7 @@ public class NAccount extends Account {
 		else {
 			setBalance(getBalance()+amount);//adding to balance
 			deal = new Transaction('D', amount, getBalance(), "Cheque");
-			transactions.add(deal);
+			transactions.add(deal); // recording Deposits made
 		}
 		
 	}
@@ -39,14 +39,14 @@ public class NAccount extends Account {
 		else {
 			setBalance(getBalance()-amount); // taking from balance
 			deal = new Transaction('W', amount, getBalance(), "Cash");
-			transactions.add(deal);
+			transactions.add(deal); //recording Withdraws made
 		}
 	}
 	
 	@Override
 	public String toString() {	
 		String transact = "" ;
-		for (int i = 0; i < transactions.size(); i++) {
+		for (int i = 0; i < transactions.size(); i++) { //making strings transactions
 			transact += transactions.get(i) + "\n";
 		}
 		return 
