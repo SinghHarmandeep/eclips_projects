@@ -23,8 +23,14 @@
     <fullyQualifiedTypeName name="interfaced.Circle"/>
     <fullyQualifiedTypeName name="interfaced.Square"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="StringStack"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.SynchronousQueue"/>
+    <fullyQualifiedTypeName name="com.sun.javafx.tools.packager.Main"/>
     <fullyQualifiedTypeName name="StringDynStack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="TestScores"/>
+    <fullyQualifiedTypeName name="InvalidTestScore"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
 </qualifiedTypeNameHistroy>
