@@ -24,10 +24,10 @@ public class Account {
 	}
 
 	//accessors and mutators
-	private int getId() {
+	public int getId() {
 		return id;
 	}
-	private void setId(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public double getBalance() {
@@ -43,7 +43,7 @@ public class Account {
 		this.anualInterestRate = anualInterestRate;
 	}
 	
-	//computatins
+	//Computations
 	public LocalDate getDate() {
 		return dateCreated;
 	}
@@ -69,7 +69,7 @@ public class Account {
 	}
 	
 	public String toString() {
-		return ""+ id + " "+ balance + " "+ anualInterestRate;
+		return " "+ id + " "+ balance + " "+ anualInterestRate;
 	}
 	
 }
