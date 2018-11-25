@@ -7,7 +7,7 @@ import java.time.LocalTime;
 public class Transaction {
 	
 	private LocalDate date;
-	private LocalTime time;
+	private LocalTime time; //including time just because
 	private char type;
 	private double amount, balance;
 	private String description;
