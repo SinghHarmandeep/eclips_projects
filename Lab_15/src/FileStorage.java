@@ -25,7 +25,7 @@ public class FileStorage {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		System.out.println(read.nextLine());
+		System.out.println(read.nextLine()+" ds");
 		
 		try {
 			System.out.println(read.nextLine()+ "ad");
@@ -33,7 +33,9 @@ public class FileStorage {
 			System.out.println(e);
 			e.getStackTrace();
 		}
-		read.close();
 		
+		file.getAbsolutePath();
+		read.close();
 	}
+
 }
